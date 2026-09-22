@@ -14,7 +14,7 @@ test("Single File Upload", async ({ page }) => {
 
 
     //SetInputFiles()// which accepts path of the file or path of the files 
-    test("Multiple files upload", async ({ page }) => {
+    test.only("Multiple files upload", async ({ page }) => {
 
     await page.goto("https://davidwalsh.name/demo/multiple-file-upload.php");
 
