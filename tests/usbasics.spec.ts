@@ -106,7 +106,7 @@ for (const day of days) {
     await checkbox.check();
     await expect(checkbox).toBeChecked();
 } // Closes the for loop
-        await page.pause();
+       
 })
 
 
