@@ -70,7 +70,7 @@ await expect(page.getByText("Log out")).toBeVisible()
 )
 
 //select radio/checkbox
-test.only("handling of checkbox and radio button", async({page})=> {
+test("handling of checkbox and radio button", async({page})=> {
 await page.goto("https://testautomationpractice.blogspot.com/")
 await  page.getByLabel("Female").click();
 await expect(page.getByLabel("Female")).toBeChecked()
@@ -110,4 +110,4 @@ for (const day of days) {
 })
 
 
-  
+    
